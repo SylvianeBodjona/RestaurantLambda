@@ -1,0 +1,342 @@
+
+/*BODY*/
+body
+{
+font-family: 'Open Sans', sans-serif; 
+}
+
+/*HEADER*/
+header
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("../Images/pasta1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;  /*prend le 100% de la portee de vue*/
+}
+#rightingredients
+{
+    color: #fff;
+    font-size: 350%;
+}
+h1
+{  
+    
+    text-align: center;
+    
+}
+.textdebienvenue
+{
+    margin-left: 27%;
+    margin-top: 6%;
+    font-family: 'Yeseva One', cursive;
+}
+#separateur
+{
+width: 13%;
+height: 10%;
+margin-left: 41%;
+}
+
+.boutonsmenu
+{
+margin-top: 2%;
+   margin-left: 37.5%; 
+    
+}
+.butmenu
+{
+ margin-left: 2%;
+}
+
+.butmenu, .buttable
+{
+    border-radius: 0px;
+     /*background-color: transparent;*/
+background-color:rgba(0, 0, 0, 0.5);
+}
+#lambdalogo
+{
+color: #fff;
+    font-family: 'Yeseva One', cursive;
+    margin-top: 5%;
+    padding-left: 7%;
+}
+
+/* NAVIGATION PRINCIPALE*/
+#menuitem li
+{
+display: inline-block;   
+padding: 8px 15px;
+margin-top: 5%;
+}
+
+#menuitem li a
+{
+color: #fff;
+text-decoration: none;
+}
+
+#menuitem li a:hover,
+#menuitem li a:active
+{
+ border-top: 2px solid #fff;
+}
+
+/*SECTION THE RIGTH FOOD*/
+#therightfood
+{
+margin-top: 13%;
+font-family: 'Yeseva One', cursive;
+color: #c69f00;
+}
+
+
+#separateurjaune
+{
+width: 30%;
+height: 10%;
+margin-left: 34%;
+margin-top: -2%;
+}
+
+p
+{
+text-align: center;
+}
+
+#photochef
+{
+width: 30%;
+height: 30%;
+}
+
+#chefimg
+{
+height: 25%;
+    width:25%;
+    border-radius: 50%;
+    margin-top: 5%;
+     
+}
+#assiette
+{
+    border-radius: 50%;
+    margin-top: 10%;
+  
+     box-shadow: 10px 10px 5px #aaaaaa; /* pour creer l'ombre sous l'assiette*/
+
+}
+
+
+/*SECTION FINE INGREDIENTS*/
+.fineingredientsection
+{
+background-image: url("../Images/epinard2.jpg");
+}
+
+.fineingredientsection, .guestreviewsection
+{
+ 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;  /*prend le 100% de la portee de vue*/
+    margin-top:2%;
+    color: #fff;
+}
+#thefineingredienth1
+{
+margin-top: 5%;
+font-family: 'Yeseva One', cursive;
+}
+
+
+#bloctransparent
+{
+    background-color:rgba(0, 0, 0, 0.6);
+    padding: 6%;
+    margin-top: 17%;
+    width: 80%;
+}
+
+.petitesimages
+{
+height: 90px;
+    width:95px;
+   border-radius: 50%;
+    margin-left: 2%;
+    margin-top: 8%;
+    
+    border:solid ;
+    border-color: #827871;
+    
+    
+}
+
+/*SECTION CARTE*/
+
+h5
+{
+   color:#c69f00;
+    
+}
+
+hr
+{ 
+ border-color: #c69f00;
+}
+
+span
+{
+ float: right; /*pour ramener les span vers la droite*/
+}
+
+.grandediv
+{
+    padding: 2.5%;
+}
+
+.caterogies
+{
+margin-top: 7%;
+font-family: 'Yeseva One', cursive;
+color: #c69f00;
+}
+ 
+
+/* SECTION GUEST REVIEWS*/
+.guestreviewsection
+{
+background-image: url("../Images/brochette.jpg");
+}
+
+h6
+{
+text-align: center;
+}
+
+.thereview
+{
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 6%;
+    width: 60%;
+    margin-top: 16%;
+    margin-left: 20%;
+}
+
+#quote
+{
+width: 5%;
+    height: 5%;
+    margin-top: -5%;
+    margin-right: 1%;
+}
+
+#theguestreviewh1
+{
+font-family: 'Yeseva One', cursive;
+}
+
+h6
+{
+font-size: small;
+}
+
+/*SECTION BOOK NOW*/
+.plats
+{
+width: 50%;
+    height: 60%;
+}
+
+#dessert
+{
+background-image: url("../Images/dessert.jpg");
+}
+
+#riz
+{
+background-image: url("../Images/riz.jpg");
+    float: left;
+}
+
+.plats
+{
+display: inline-block;
+      background-size: cover;
+    background-position: center;
+    height: 72vh;  /*prend le 100% de la portee de vue*/
+    margin-top:16%;
+   
+}
+
+.lesinput
+{
+width: 90%;
+}
+
+label
+{
+color: #c69f00;
+}
+
+::-webkit-input-placeholder { 
+   font-style: italic;  /*pour mettre le texte des placeholder en italic ( SOURCE https://stackoverflow.com/questions/27644314/how-to-make-only-placeholder-italics-in-input)*/
+}
+
+.btn-book
+{
+background-color:  #c69f00;
+    width: 40%;
+    color: #fff;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.lesinput:focus{
+  border-color: #c69f00;
+    outline: 0; /*pour enlever le highlight bleu qui apparait au focus*/
+}
+
+/*SECTION FOOTER*/
+footer
+{
+background-color: #191a15;
+    background-size: cover;
+    color: #fff;
+    margin-top: 5%;
+}
+.separateurfooter
+{
+width: 22%;
+    height: 20%
+        
+}
+
+.footerdivs
+{
+text-align: center;
+    padding-left: 5%;
+     padding-right: 5%;
+     margin-top: 2%;
+    font-size: small;
+}
+
+.social-links
+{
+list-style: none;
+ margin-right: 6%;
+}
+footer li
+{
+  display: inline-block;
+}
+footer li a , .socialmediaheader:hover, .socialmediaheader:active
+{   
+color: #ddd; /* par defaut les icons seront grises*/
+}
+
+footer li a:hover,
+footer li a:active, .socialmediaheader
+{
+color: #c69f00; /* quand on passe dessus avec le cusrseur ils deviennent jaunes*/
+}
